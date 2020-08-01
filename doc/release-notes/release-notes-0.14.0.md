@@ -689,7 +689,7 @@ and git merge commit are mentioned.
 - #8567 `85d4e21` Add default port numbers to REST doc (djpnewton)
 - #8624 `89de153` build: Mention curl (MarcoFalke)
 - #8786 `9da7366` Mandatory copyright agreement (achow101)
-- #8823 `7b05af6` Add privacy recommendation when running hidden service (laanwj)
+- #8823 `7b05af6` Add privacy recommendation when running onion service (laanwj)
 - #9433 `caa2f10` Update the Windows build notes (droark)
 - #8879 `f928050` Rework docs (MarcoFalke)
 - #8887 `61d191f` Improve GitHub issue template (fanquake)
