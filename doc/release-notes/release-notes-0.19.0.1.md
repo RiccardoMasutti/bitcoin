@@ -309,7 +309,7 @@ Network
   where inbound peers could prevent a node from getting a transaction.
   (#14897, #15834)
 
-- If a Tor hidden service is being used, Bitcoin Core will be bound to
+- If a Tor onion service is being used, Bitcoin Core will be bound to
   the standard port 8333 even if a different port is configured for
   clearnet connections.  This prevents leaking node identity through use
   of identical non-default port numbers. (#15651)
@@ -422,7 +422,7 @@ Build system changes
 - #15654 Remove unused unsanitized user agent string CNode::strSubVer (MarcoFalke)
 - #15689 netaddress: Update CNetAddr for ORCHIDv2 (dongcarl)
 - #15834 Fix transaction relay bugs introduced in #14897 and expire transactions from peer in-flight map (sdaftuar)
-- #15651 torcontrol: Use the default/standard network port for Tor hidden services, even if the internal port is set differently (luke-jr)
+- #15651 torcontrol: Use the default/standard network port for Tor onion services, even if the internal port is set differently (luke-jr)
 - #16188 Document what happens to getdata of unknown type (MarcoFalke)
 - #15649 Add ChaCha20Poly1305@Bitcoin AEAD (jonasschnelli)
 - #16152 Disable bloom filtering by default (TheBlueMatt)
