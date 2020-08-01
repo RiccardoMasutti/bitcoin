@@ -229,15 +229,15 @@ more accurate priority calculation for chained unconfirmed transactions will be
 restored. Community direction on this topic is particularly requested to help
 set project priorities.
 
-Automatically use Tor hidden services
+Automatically use Tor onion services
 -------------------------------------
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
-API, to create and destroy 'ephemeral' hidden services programmatically.
+API, to create and destroy 'ephemeral' onion services programmatically.
 Bitcoin Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authorization is available),
-Bitcoin Core automatically creates a hidden service to listen on, without
+Bitcoin Core automatically creates a onion service to listen on, without
 manual configuration. Bitcoin Core will also use Tor automatically to connect
 to other .onion nodes if the control socket can be successfully opened. This
 will positively affect the number of available .onion nodes and their usage.
@@ -602,10 +602,10 @@ git merge commit are mentioned.
 - #6148 `999c8be` Relay blocks when pruning (Suhas Daftuar)
 - #6588 `cf9bb11` In (strCommand == "tx"), return if AlreadyHave() (Tom Harding)
 - #6974 `2f71b07` Always allow getheaders from whitelisted peers (Wladimir J. van der Laan)
-- #6639 `bd629d7` net: Automatically create hidden service, listen on Tor (Wladimir J. van der Laan)
+- #6639 `bd629d7` net: Automatically create onion service, listen on Tor (Wladimir J. van der Laan)
 - #6984 `9ffc687` don't enforce maxuploadtarget's disconnect for whitelisted peers (Jonas Schnelli)
 - #7046 `c322652` Net: Improve blocks only mode. (Patrick Strateman)
-- #7090 `d6454f6` Connect to Tor hidden services by default (when listening on Tor) (Peter Todd)
+- #7090 `d6454f6` Connect to Tor onion services by default (when listening on Tor) (Peter Todd)
 - #7106 `c894fbb` Fix and improve relay from whitelisted peers (Pieter Wuille)
 - #7129 `5d5ef3a` Direct headers announcement (rebase of #6494) (Pieter Wuille)
 - #7079 `1b5118b` Prevent peer flooding inv request queue (redux) (redux) (Gregory Maxwell)
