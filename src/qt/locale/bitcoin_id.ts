@@ -1115,7 +1115,7 @@
         <translation>Perlihatkan apabila proxy SOCKS5 default digunakan untuk berhungan dengan orang lain lewat tipe jaringan ini.</translation>
     </message>
     <message>
-        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
+        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation>Menggunakan proxy SOCKS5 tersendiri untuk berhubungan dengan orang lain melalui layanan Tor:</translation>
     </message>
     <message>
@@ -1251,7 +1251,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation>Koneksi ke jaringan bitcoin melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
     </message>
     <message>
